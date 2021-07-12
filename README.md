@@ -1,2 +1,2 @@
-# talkshow_addon
-talkshow addon
+# ADDON DÙNG CHO TALKSHOW
+
