@@ -47,6 +47,8 @@ const slotItems = [
             msg.edit(`${slotItems[number[0]]} ${slotItems[number[1]]} ${slotItems[number[2]]}`);
           }, 12000);
         })
+
+        // MESSAGE BẮT ĐẦU - KẾT THÚC
         message.channel.send(`**Bỏ cái tay ra nghennnnnn** `)
             .then((msg) => {
             setTimeout(function() {
