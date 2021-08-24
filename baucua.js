@@ -18,10 +18,10 @@ const slotItems = [
       run: async (bot, message, args) => {
   
       if(!message.member.hasPermission("MANAGE_MESSAGES")) 
-      return message.reply("Bạn không phải host sòng.").then(message=>message.delete({timeout:"5000"}));
+      return message.reply("Bạn không có quyền roll.");
 
       if(!message.guild.me.hasPermission("MANAGE_MESSAGES")) 
-      return message.reply("Tui không có quyền chỉnh sửa tin nhắn.").then(message=>message.delete({timeout:"5000"}));
+      return message.reply("Tui không có quyền chỉnh sửa tin nhắn.");
 
       let user = message.author;
 
