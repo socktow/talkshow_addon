@@ -51,12 +51,6 @@ const slotItems = [
           }, 12000);
         })
         
-        //laysum 
-        const sum = slotItems.reduce((result, item) => {
-          const _number = item.match(/[1-6]/g);
-          return result + parseInt(_number[0], 10);
-      }, 0)
-        
         // MESSAGE BẮT ĐẦU - KẾT THÚC
         message.channel.send(`**Bỏ cái tay ra nghennnnnn** `)
             .then((msg) => {
@@ -64,7 +58,7 @@ const slotItems = [
                 msg.edit(`**Lắc Nè Quý Zị**`);
               }, 3000);
             setTimeout(function() {
-                msg.edit(`**Tổng** : ${sum}`);
+                msg.edit(`**Tổng** : `);
               }, 12000)})
   
   }
